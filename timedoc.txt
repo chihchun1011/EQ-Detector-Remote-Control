@@ -1,0 +1,4 @@
+read single data = 0.52s
+10 data = 13.4s
+writing = 0.001s
+uploading = 0.387s 
