@@ -10,7 +10,7 @@ def Init_Connection():
 	global client, transport
 	client = paramiko.SSHClient()
 	client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-	client.connect('ntugrid5.phys.ntu.edu.tw',username='chihchun',password='EYP*aRMA|_')
+	client.connect('IP',username='usr',password='pwd')
 
 	transport = client.get_transport() ##create a transport
 	if transport.is_active() :
